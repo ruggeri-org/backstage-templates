@@ -52,12 +52,10 @@ spec:
               - github.com
   steps:
     - id: template
-      name: Fetch Skeleton + Template
-      action: fetch:cookiecutter
+      name: Fetch Skeleton + Template      
       action: fetch:template
       input:
-        url: ./template
-        cookiecutterCompat: true
+        url: ./template        
         copyWithoutRender:
           - .github/workflows/*
         values:
