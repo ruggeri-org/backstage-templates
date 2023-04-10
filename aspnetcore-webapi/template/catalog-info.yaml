@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: {{ cookiecutter.name }}
-  title: {{ cookiecutter.title }}
-  description: {{ cookiecutter.description }}
+  name: teste #{{ cookiecutter.name }}
+  title: teste #{{ cookiecutter.title }}
+  description: teste #{{ cookiecutter.description }}
   annotations:
-    github.com/project-slug: {{ cookiecutter.destination.owner }}/{{ cookiecutter.destination.repo }}
+    github.com/project-slug: backstage/demo #{{ cookiecutter.destination.owner }}/{{ cookiecutter.destination.repo }}
 spec:
   type: service
   lifecycle: development
-  owner: {{ cookiecutter.owner }}
+  owner: vruggeri #{{ cookiecutter.owner }}
