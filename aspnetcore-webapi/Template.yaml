@@ -54,8 +54,10 @@ spec:
     - id: template
       name: Fetch Skeleton + Template
       action: fetch:cookiecutter
+      action: fetch:template
       input:
         url: ./template
+        cookiecutterCompat: true
         copyWithoutRender:
           - .github/workflows/*
         values:
