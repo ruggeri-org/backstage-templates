@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: teste #{{ cookiecutter.name }}
+  name: {{ cookiecutter.name }}
   title: teste #{{ cookiecutter.title }}
   description: teste #{{ cookiecutter.description }}
   annotations:
